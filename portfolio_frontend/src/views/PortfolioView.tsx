@@ -326,7 +326,7 @@ const PortfolioView = () => {
 
           {/* Educational Content about Move Language */}
           <p>
-            Move smart contracts are programs written in the Move language and deployed on blockchains like Sui, enabling secure asset management and high scalability. As a secure and efficient language designed for apps that scale, Move ushers in a new era of smart contract programming by offering significant advancements in security and productivity. Move drastically reduces the Web3 learning curve and enables a developer experience of unprecedented ease, serving as the foundation for Sui, a high-performance Layer 1 blockchain that utilizes an object-centric data model to achieve industry-leading transaction speeds.
+            Sui is a high-performance Layer 1 blockchain engineered for industry-leading speed and horizontal scalability. Headquartered in Silicon Valley (Palo Alto, California), the network was built by Mysten Labs—a team founded by the original creators of the Move language with roots at Facebook (Meta) and the Diem project. By utilizing a unique object-centric data model and the secure Move programming language, Sui provides a robust infrastructure that slashes the Web3 learning curve. This foundation allows developers to manage assets with enhanced security and build scalable applications that can redefine the future of the internet.
           </p>
 
           {/* External Link to Official Sui Documentation */}
@@ -447,7 +447,7 @@ const PortfolioView = () => {
                     <path d="M2 17L12 22L22 17" stroke="#6C8EEF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     <path d="M2 12L12 17L22 12" stroke="#6C8EEF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
-                  View Transaction on {currentNetwork === 'testnet' ? 'Testnet' : 'Blockchain'}
+                  Verify on {currentNetwork === 'testnet' ? 'Testnet' : 'Blockchain'}
                 </a>
               ) : (
                 <div style={{
